@@ -6,17 +6,24 @@
 body {
 }
 
+main {
+  background-color: #fff;
+}
+
 .wrapper_all {
-  max-width: 500px;
+  max-width: 100%;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   border: 1px black solid;
+  background-color: lightblue;
+  color: darkblue;
 }
 
 .header {
   border: 1px black solid;
+  background-color: lightblue;
 }
 
 h1 {
@@ -28,16 +35,70 @@ h1 {
   border: 1px black solid;
   margin: 20px;
   padding: 30px;
+  text-align: center;
+  background-color: lightblue;
+  position: relative;
+}
+
+.bookmarkwhite {
+  position: absolute;
+  right: 100px;
+  top: -5px;
+  height: 40px;
+}
+
+.questionbox2 {
+  border: 1px black solid;
+  margin: 20px;
+  padding: 30px;
+  text-align: center;
+  background-color: lightblue;
+  position: relative;
+}
+
+.bookmarkblack {
+  position: absolute;
+  right: 100px;
+  top: -5px;
+  height: 40px;
 }
 
 .showanswer1 {
   display: block;
   margin: 0 auto;
   padding: 20px;
+  color: #fff;
+  background-color: darkblue;
 }
 
-.answers {
+.showanswer1:hover {
+  background-color: #fff;
+  color: darkblue;
+}
+
+.showanswer2 {
+  display: block;
+  margin: 0 auto;
+  padding: 20px;
+  color: #fff;
+  background-color: darkblue;
+}
+
+.showanswer2:hover {
+  background-color: #fff;
+  color: darkblue;
+}
+
+.hashtags {
   margin-top: 30px;
+  display: flex;
+}
+
+.hashtagsbox {
+  padding: 10px;
+  margin: 10px;
+  border: solid 1px black;
+  background-color: #fff;
 }
 
 .questionbox2 {
@@ -53,9 +114,28 @@ h1 {
 }
 
 footer {
-  position: fixed;
+  padding: 20px;
+  max-width: 100%;
+  margin: 0 auto;
+  position: sticky;
   bottom: 0;
   display: flex;
   flex-direction: row;
-  margin: 0 auto;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  border: 1px black solid;
+  background-color: lightblue;
+  color: darkblue;
+}
+
+.home-icon img {
+  height: 40px;
+}
+
+.black-icon img {
+  height: 40px;
+}
+
+.profile-icon img {
+  height: 40px;
 }
