@@ -6,57 +6,84 @@
     <title>Quiz App</title>
     <link rel="stylesheet" href="css/styles.css" />
   </head>
+
   <body>
-  <div class="wrapper_all">
+    <header>
+      <h1>Quiz App</h1>
+    </header>
     <main>
-      <div class="header">
-        <h1>Quiz App</h1>
+      <div class="questionbox">
+        <img class="bookmarkblack" src="img/bookmark-solid-24.png" />
+        <p class="questiontext">What property flips the axes in flexbox?</p>
+
+        <button type="button" class="showanswerbutton" data-js="button1">
+          <h3>Show Answer</h3>
+        </button>
+        <div class="hashtags">
+          <div class="hashtagsbox">#html</div>
+          <div class="hashtagsbox">#css</div>
+          <div class="hashtagsbox">#javascript</div>
+        </div>
       </div>
-      <div class="questionbox1">
-        <img class="bookmarkwhite" src="img/bookmark-regular-24.png"/>
+      <!-- Erste Antwort -->
+      <!-- <div class="answer1">
+        <img class="bookmarkblack" src="img/bookmark-regular-24.png" />
         <p class="question1">What property flips the axes in flexbox?</p>
 
-        <button class="showanswer1">Show Answer</button>
+        <button type="button" class="showanswer1" data-js="button1">
+          Show Answer
+        </button>
         <div class="hashtags">
-            <div class="hashtagsbox">#html</div>
-            <div class="hashtagsbox">#css</div>
-            <div class="hashtagsbox">#javascript</div>
+          <div class="hashtagsbox">#html</div>
+          <div class="hashtagsbox">#css</div>
+          <div class="hashtagsbox">#javascript</div>
+        </div>
+      </div> -->
+      <!-- Erste Antwort -->
+      <div class="questionbox">
+        <img class="bookmarkblack" src="img/bookmark-solid-24.png" />
+        <p class="questiontext">What property flips the axes in flexbox?</p>
+
+        <button type="button" class="showanswerbutton" data-js="button2">
+          <h3>Show Answer</h3>
+        </button>
+        <div class="hashtags">
+          <div class="hashtagsbox">#html</div>
+          <div class="hashtagsbox">#css</div>
+          <div class="hashtagsbox">#javascript</div>
         </div>
       </div>
-      <div class="questionbox2">
-        <img class="bookmarkblack" src="img/bookmark-solid-24.png"/>
 
-        <p class="question2">What property changes the color of a box?</p>
-            <img class="bookmarkblack" src="img/bookmark-solid-24.png"/>
-        <button class="showanswer2">Show Answer</button>
+      <div class="questionbox">
+        <img class="bookmarkblack" src="img/bookmark-solid-24.png" />
+        <p class="questiontext">What property flips the axes in flexbox?</p>
+
+        <button type="button" class="showanswerbutton" data-js="button3">
+          <h3>Show Answer</h3>
+        </button>
         <div class="hashtags">
-            <div class="hashtagsbox">#html</div>
-            <div class="hashtagsbox">#css</div>
-            <div class="hashtagsbox">#javascript</div>
+          <div class="hashtagsbox">#html</div>
+          <div class="hashtagsbox">#css</div>
+          <div class="hashtagsbox">#javascript</div>
         </div>
-      </div>
-
-      <div class="questionbox2">
-        <img class="bookmarkblack" src="img/bookmark-solid-24.png"/>
-
-        <p class="question2">What property changes the color of a box?</p>
-            <img class="bookmarkblack" src="img/bookmark-solid-24.png"/>
-        <button class="showanswer2">Show Answer</button>
-        <div class="hashtags">
-            <div class="hashtagsbox">#html</div>
-            <div class="hashtagsbox">#css</div>
-            <div class="hashtagsbox">#javascript</div>
-        </div>
-      </div>
       </div>
     </main>
+
     <footer>
-      <div class="home-icon"><img class="footericon" src="img/home-solid-24.png"/>
-        </div>
-      <div class="black-icon"><img class="footericon" src="img/bookmark-solid-24.png"/>
-        </div>
-      <div class="profile-icon"><img class="footericon" src="img/user-solid-24.png"/>
-        </div>
+      <nav>
+        <ul>
+          <li class="home-icon">
+            <img class="footericon" src="img/home-solid-24.png" />
+          </li>
+          <li class="black-icon">
+            <img class="footericon" src="img/bookmark-solid-24.png" />
+          </li>
+          <li class="profile-icon">
+            <img class="footericon" src="img/user-solid-24.png" />
+          </li>
+        </ul>
+      </nav>
     </footer>
   </body>
+  <script src="javascript/index.js"></script>
 </html>

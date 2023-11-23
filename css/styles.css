@@ -4,87 +4,80 @@
 }
 
 body {
+  margin: 0 auto;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  min-height: 100vh;
+  border: 1px black solid;
+  color: darkblue;
+  list-style: none;
+}
+
+header {
+  border: 1px black solid;
+  background-color: lightblue;
+}
+
+h1,
+p {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  text-align: center;
+}
+
+.questiontext {
+  font-size: 20px;
+}
+
+h3 {
+  font-size: 15px;
 }
 
 main {
   background-color: #fff;
-}
-
-.wrapper_all {
-  max-width: 100%;
-  margin: 0 auto;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  border: 1px black solid;
-  background-color: lightblue;
-  color: darkblue;
+  align-content: center;
+  gap: 50px;
+  margin: 50px 0 50px 0;
 }
 
-.header {
+.questionbox {
   border: 1px black solid;
-  background-color: lightblue;
-}
-
-h1 {
-  font-family: Arial, Helvetica, sans-serif;
-  text-align: center;
-}
-
-.questionbox1 {
-  border: 1px black solid;
-  margin: 20px;
-  padding: 30px;
+  padding: 50px;
   text-align: center;
   background-color: lightblue;
   position: relative;
+  border-radius: 20px;
 }
 
 .bookmarkwhite {
   position: absolute;
-  right: 100px;
+  right: 50px;
   top: -5px;
   height: 40px;
-}
-
-.questionbox2 {
-  border: 1px black solid;
-  margin: 20px;
-  padding: 30px;
-  text-align: center;
-  background-color: lightblue;
-  position: relative;
 }
 
 .bookmarkblack {
   position: absolute;
-  right: 100px;
-  top: -5px;
-  height: 40px;
+  right: 50px;
+  top: -10px;
+  height: 50px;
 }
 
-.showanswer1 {
+.showanswerbutton {
   display: block;
   margin: 0 auto;
-  padding: 20px;
+  padding: 5px 30px 5px 30px;
   color: #fff;
   background-color: darkblue;
+  border-radius: 40px;
 }
 
-.showanswer1:hover {
-  background-color: #fff;
-  color: darkblue;
-}
-
-.showanswer2 {
-  display: block;
-  margin: 0 auto;
-  padding: 20px;
-  color: #fff;
-  background-color: darkblue;
-}
-
-.showanswer2:hover {
+.showanswerbutton:hover {
   background-color: #fff;
   color: darkblue;
 }
@@ -101,12 +94,6 @@ h1 {
   background-color: #fff;
 }
 
-.questionbox2 {
-  border: 1px black solid;
-  margin: 20px;
-  padding: 30px;
-}
-
 .showanswer2 {
   display: block;
   margin: 0 auto;
@@ -114,18 +101,26 @@ h1 {
 }
 
 footer {
+  position: sticky;
+  bottom: 0;
+  background-color: lightblue;
+  border-top: 1px black solid;
+}
+
+footer ul {
   padding: 20px;
   max-width: 100%;
-  margin: 0 auto;
   position: sticky;
   bottom: 0;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   flex-wrap: wrap;
-  border: 1px black solid;
-  background-color: lightblue;
   color: darkblue;
+}
+
+nav ul {
+  list-style: none;
 }
 
 .home-icon img {
